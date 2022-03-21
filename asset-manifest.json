@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/netology/static/css/main.55a3e0e4.css",
-    "main.js": "/netology/static/js/main.c1197ee4.js",
+    "main.js": "/netology/static/js/main.3fe5d48b.js",
     "static/media/LoaderBlue.svg": "/netology/static/media/LoaderBlue.b5eaec7db16aaa55fe8a06f185735a45.svg",
     "index.html": "/netology/index.html",
     "main.55a3e0e4.css.map": "/netology/static/css/main.55a3e0e4.css.map",
-    "main.c1197ee4.js.map": "/netology/static/js/main.c1197ee4.js.map"
+    "main.3fe5d48b.js.map": "/netology/static/js/main.3fe5d48b.js.map"
   },
   "entrypoints": [
     "static/css/main.55a3e0e4.css",
-    "static/js/main.c1197ee4.js"
+    "static/js/main.3fe5d48b.js"
   ]
 }
