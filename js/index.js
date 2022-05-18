@@ -2,16 +2,20 @@
 let input=document.getElementById('input');
 let stars=document.querySelectorAll('.content__star');
 let button =document.getElementById('button');
-button.setAttribute('disabled','disabled')
 stars.forEach(item=>item.addEventListener('click',handleSelect));
 function handleSelect(event) {
-    event.stopPropagation()
-        event.target.classList.toggle('content__starHovered')
-
-
+    console.log(event)
+    if(event.target.getAttribute('src')==='star.png'){
+        event.target.setAttribute("src",'star-gold.png')
+        return
+    }
+    if(event.target.getAttribute('src')==='star-gold.png'){
+        event.target.setAttribute("src",'star.png')
+        return
+    }
 }
 function handleWrite(event) {
-    if(event.target.value !== " "){
+    if(event.target.value.length !== 0){
         button.removeAttribute('disabled')
     }
 }
